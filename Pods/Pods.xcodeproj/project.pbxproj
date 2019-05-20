@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D08BC20207B6821E9A5B8D2655F2FA52 /* Radar */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 03A7D9D0D6E95AFA96054C3E6E95BE88 /* Build configuration list for PBXAggregateTarget "Radar" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Radar;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3129802EAA7CB001E02E252E921D93EE /* Pods-RadarTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB7E7C1EBCC1732F9A691A68930556 /* Pods-RadarTest-dummy.m */; };
+		735B16C286E373B4935F62B2AFCAE576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DF413283AAE15C85E62F8AD310127854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EAB1C18CFB619FEA3903F9B2C7C4C1E6 /* Pods-RadarSwiftDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA5A9928E885E06CEB593F8992C28F8 /* Pods-RadarSwiftDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAA5A50CE6AECBC458BB65539EB882E /* Pods-RadarSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97359439233A5255B0C4F20FD64059B /* Pods-RadarSwiftDemo-dummy.m */; };
+		FAABA993E5683FC93D1EC3749D8612AA /* Pods-RadarTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD07463179F74D3550DC57CC8071D76B /* Pods-RadarTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6ED262200B2657F1F94154A6A20E535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08BC20207B6821E9A5B8D2655F2FA52;
+			remoteInfo = Radar;
+		};
+		D35D170C81BE90CAFF8812875A070776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08BC20207B6821E9A5B8D2655F2FA52;
+			remoteInfo = Radar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C8D71C95395B604C3EDF8283A541FE9 /* Pods-RadarTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarTest.release.xcconfig"; sourceTree = "<group>"; };
+		1CF9E50FAA12C284997C93EBCF365850 /* Pods-RadarSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		219995EF50A2F89E445C057821FDAA35 /* Pods-RadarTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadarTest.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3231A93E5F042F731A321B961DADD6E1 /* Pods-RadarTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadarTest-Info.plist"; sourceTree = "<group>"; };
+		35A93A294C9C7AB22E25BC30008942B2 /* Radar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Radar.h; path = Radar/Radar.framework/Headers/Radar.h; sourceTree = "<group>"; };
+		36178DED9EA67F60BA15DBE0007F1D39 /* Pods-RadarSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadarSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46DBFB55636AD59ADAE7D0BB52AFD7CD /* Pods_RadarSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadarSwiftDemo.framework; path = "Pods-RadarSwiftDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670EA34C41D7F5CCEA2600A00C02E42C /* Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Radar.framework; path = Radar/Radar.framework; sourceTree = "<group>"; };
+		7DA5A9928E885E06CEB593F8992C28F8 /* Pods-RadarSwiftDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadarSwiftDemo-umbrella.h"; sourceTree = "<group>"; };
+		8E6AF85B7138BE0EB2AD01E7895E115E /* Pods-RadarSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		960A215AF7AFBE3CAE9DFA03BEB0489A /* Pods-RadarSwiftDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadarSwiftDemo-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A97359439233A5255B0C4F20FD64059B /* Pods-RadarSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadarSwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		AFCB1551D5B14852ED16853E9FF10332 /* Pods-RadarSwiftDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadarSwiftDemo.modulemap"; sourceTree = "<group>"; };
+		B20B557C8A3A6154DFC0C7AA7E45454A /* Pods_RadarTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadarTest.framework; path = "Pods-RadarTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70A3EC398670A03D78D3206DF74E51C /* Pods-RadarTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadarTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDCA89190BAD4A0EBE65AED5F36F4699 /* Radar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Radar.xcconfig; sourceTree = "<group>"; };
+		CE2D1DD3E9FF7124956A851E940E74CC /* RadarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarConfig.h; path = Radar/Radar.framework/Headers/RadarConfig.h; sourceTree = "<group>"; };
+		E2695F6681C9C0AB189B2AE092BE5843 /* Pods-RadarTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F0807D027C0A0FE7A55DDAE010EDF298 /* Pods-RadarTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadarTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1AB7E7C1EBCC1732F9A691A68930556 /* Pods-RadarTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadarTest-dummy.m"; sourceTree = "<group>"; };
+		F8F93B7D891CC9791FC829F31E28FF26 /* Pods-RadarSwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadarSwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD07463179F74D3550DC57CC8071D76B /* Pods-RadarTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadarTest-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB603EE484B7CE20C70EAFF6AEDB7C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735B16C286E373B4935F62B2AFCAE576 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76F62E5914D3AD86D8B70218018BDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF413283AAE15C85E62F8AD310127854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14731746C2F43BB849153C7F0E4A35AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FBA40E79FDB6EB7FB621AE9E8508FF3 /* Radar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FBA40E79FDB6EB7FB621AE9E8508FF3 /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				35A93A294C9C7AB22E25BC30008942B2 /* Radar.h */,
+				CE2D1DD3E9FF7124956A851E940E74CC /* RadarConfig.h */,
+				FF8FCA30103E9BBF06DA64FC2A2B54D1 /* Frameworks */,
+				D905492F3154A6A2159BD92E5E521F57 /* Support Files */,
+			);
+			name = Radar;
+			path = Radar;
+			sourceTree = "<group>";
+		};
+		B8B11A95111DFFA6974A8FE3C4994FF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0509B034F37781FD5E1770D93EA8ABB /* Pods-RadarSwiftDemo */,
+				EB161F314C6CF9C57020C7F57B549378 /* Pods-RadarTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE8FB53235BB8D8ABFBD16848F48DBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46DBFB55636AD59ADAE7D0BB52AFD7CD /* Pods_RadarSwiftDemo.framework */,
+				B20B557C8A3A6154DFC0C7AA7E45454A /* Pods_RadarTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				14731746C2F43BB849153C7F0E4A35AB /* Pods */,
+				BE8FB53235BB8D8ABFBD16848F48DBE2 /* Products */,
+				B8B11A95111DFFA6974A8FE3C4994FF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D905492F3154A6A2159BD92E5E521F57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDCA89190BAD4A0EBE65AED5F36F4699 /* Radar.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Radar";
+			sourceTree = "<group>";
+		};
+		E0509B034F37781FD5E1770D93EA8ABB /* Pods-RadarSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB1551D5B14852ED16853E9FF10332 /* Pods-RadarSwiftDemo.modulemap */,
+				36178DED9EA67F60BA15DBE0007F1D39 /* Pods-RadarSwiftDemo-acknowledgements.markdown */,
+				F8F93B7D891CC9791FC829F31E28FF26 /* Pods-RadarSwiftDemo-acknowledgements.plist */,
+				A97359439233A5255B0C4F20FD64059B /* Pods-RadarSwiftDemo-dummy.m */,
+				960A215AF7AFBE3CAE9DFA03BEB0489A /* Pods-RadarSwiftDemo-Info.plist */,
+				7DA5A9928E885E06CEB593F8992C28F8 /* Pods-RadarSwiftDemo-umbrella.h */,
+				1CF9E50FAA12C284997C93EBCF365850 /* Pods-RadarSwiftDemo.debug.xcconfig */,
+				8E6AF85B7138BE0EB2AD01E7895E115E /* Pods-RadarSwiftDemo.release.xcconfig */,
+			);
+			name = "Pods-RadarSwiftDemo";
+			path = "Target Support Files/Pods-RadarSwiftDemo";
+			sourceTree = "<group>";
+		};
+		EB161F314C6CF9C57020C7F57B549378 /* Pods-RadarTest */ = {
+			isa = PBXGroup;
+			children = (
+				219995EF50A2F89E445C057821FDAA35 /* Pods-RadarTest.modulemap */,
+				F0807D027C0A0FE7A55DDAE010EDF298 /* Pods-RadarTest-acknowledgements.markdown */,
+				B70A3EC398670A03D78D3206DF74E51C /* Pods-RadarTest-acknowledgements.plist */,
+				F1AB7E7C1EBCC1732F9A691A68930556 /* Pods-RadarTest-dummy.m */,
+				3231A93E5F042F731A321B961DADD6E1 /* Pods-RadarTest-Info.plist */,
+				FD07463179F74D3550DC57CC8071D76B /* Pods-RadarTest-umbrella.h */,
+				E2695F6681C9C0AB189B2AE092BE5843 /* Pods-RadarTest.debug.xcconfig */,
+				1C8D71C95395B604C3EDF8283A541FE9 /* Pods-RadarTest.release.xcconfig */,
+			);
+			name = "Pods-RadarTest";
+			path = "Target Support Files/Pods-RadarTest";
+			sourceTree = "<group>";
+		};
+		FF8FCA30103E9BBF06DA64FC2A2B54D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670EA34C41D7F5CCEA2600A00C02E42C /* Radar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		78AF6121D43C50F8BBF736180797F278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAABA993E5683FC93D1EC3749D8612AA /* Pods-RadarTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A301AE5B7EC775535DE1DF20C275FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB1C18CFB619FEA3903F9B2C7C4C1E6 /* Pods-RadarSwiftDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7935CA7C8AE4E2B85A29D56D54614E5C /* Pods-RadarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFDA973AC32146957806BE713CDCBF7 /* Build configuration list for PBXNativeTarget "Pods-RadarTest" */;
+			buildPhases = (
+				78AF6121D43C50F8BBF736180797F278 /* Headers */,
+				DB0520664678572BFA46BDC70E6A15AF /* Sources */,
+				BB603EE484B7CE20C70EAFF6AEDB7C4E /* Frameworks */,
+				22D8BBF65DCCB8B160025AAAE11FC26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF704911A20CE7CEBFE168B7A526C747 /* PBXTargetDependency */,
+			);
+			name = "Pods-RadarTest";
+			productName = "Pods-RadarTest";
+			productReference = B20B557C8A3A6154DFC0C7AA7E45454A /* Pods_RadarTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8329F95D5F892FA42C653A9DFA807A62 /* Pods-RadarSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6EBC21D5092B44BD375B8E82DDFAC6 /* Build configuration list for PBXNativeTarget "Pods-RadarSwiftDemo" */;
+			buildPhases = (
+				E5A301AE5B7EC775535DE1DF20C275FA /* Headers */,
+				781AFA56806C65211C334DC0E4826048 /* Sources */,
+				C76F62E5914D3AD86D8B70218018BDB6 /* Frameworks */,
+				1608F1D0F5CE12093743FDA7E2E1E5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2ECF881A078AA67A0FDA0DCE3CDDECD /* PBXTargetDependency */,
+			);
+			name = "Pods-RadarSwiftDemo";
+			productName = "Pods-RadarSwiftDemo";
+			productReference = 46DBFB55636AD59ADAE7D0BB52AFD7CD /* Pods_RadarSwiftDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE8FB53235BB8D8ABFBD16848F48DBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8329F95D5F892FA42C653A9DFA807A62 /* Pods-RadarSwiftDemo */,
+				7935CA7C8AE4E2B85A29D56D54614E5C /* Pods-RadarTest */,
+				D08BC20207B6821E9A5B8D2655F2FA52 /* Radar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1608F1D0F5CE12093743FDA7E2E1E5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D8BBF65DCCB8B160025AAAE11FC26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		781AFA56806C65211C334DC0E4826048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAA5A50CE6AECBC458BB65539EB882E /* Pods-RadarSwiftDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0520664678572BFA46BDC70E6A15AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3129802EAA7CB001E02E252E921D93EE /* Pods-RadarTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2ECF881A078AA67A0FDA0DCE3CDDECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Radar;
+			target = D08BC20207B6821E9A5B8D2655F2FA52 /* Radar */;
+			targetProxy = B6ED262200B2657F1F94154A6A20E535 /* PBXContainerItemProxy */;
+		};
+		EF704911A20CE7CEBFE168B7A526C747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Radar;
+			target = D08BC20207B6821E9A5B8D2655F2FA52 /* Radar */;
+			targetProxy = D35D170C81BE90CAFF8812875A070776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		069633A0C0AD5DFCAEF06B2C9E8EB59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF9E50FAA12C284997C93EBCF365850 /* Pods-RadarSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadarSwiftDemo/Pods-RadarSwiftDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadarSwiftDemo/Pods-RadarSwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29F6857E4F8BFEB0893BBBB1FD8662D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8D71C95395B604C3EDF8283A541FE9 /* Pods-RadarTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadarTest/Pods-RadarTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadarTest/Pods-RadarTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EFA1E91E1B24E33364A774EFA1EB3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDCA89190BAD4A0EBE65AED5F36F4699 /* Radar.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57FCE931BE9FC93991B1F9ECF14EFDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2695F6681C9C0AB189B2AE092BE5843 /* Pods-RadarTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadarTest/Pods-RadarTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadarTest/Pods-RadarTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF7EE7BAE9BE3B5E4CD3D81B37AB4E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDCA89190BAD4A0EBE65AED5F36F4699 /* Radar.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1B504610D5B0537371759EFA793A6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6AF85B7138BE0EB2AD01E7895E115E /* Pods-RadarSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadarSwiftDemo/Pods-RadarSwiftDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadarSwiftDemo/Pods-RadarSwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A7D9D0D6E95AFA96054C3E6E95BE88 /* Build configuration list for PBXAggregateTarget "Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7EE7BAE9BE3B5E4CD3D81B37AB4E97 /* Debug */,
+				2EFA1E91E1B24E33364A774EFA1EB3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6EBC21D5092B44BD375B8E82DDFAC6 /* Build configuration list for PBXNativeTarget "Pods-RadarSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069633A0C0AD5DFCAEF06B2C9E8EB59F /* Debug */,
+				E1B504610D5B0537371759EFA793A6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFDA973AC32146957806BE713CDCBF7 /* Build configuration list for PBXNativeTarget "Pods-RadarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FCE931BE9FC93991B1F9ECF14EFDCC /* Debug */,
+				29F6857E4F8BFEB0893BBBB1FD8662D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_RadarSwiftDemo {
+  umbrella header "Pods-RadarSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Radar (0.0.4)
+
+DEPENDENCIES:
+  - Radar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Radar
+
+SPEC CHECKSUMS:
+  Radar: 6bd7f1ff88ec054c9e26c6864657192496c3586f
+
+PODFILE CHECKSUM: e445ca9722012f1c1b5568abd7763c417d242a15
+
+COCOAPODS: 1.7.0.rc.1

@@ -1,0 +1,6 @@
+framework module Radar {
+  umbrella header "Radar.h"
+
+  export *
+  module * { export * }
+}
